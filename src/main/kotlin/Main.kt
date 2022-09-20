@@ -14,8 +14,9 @@ fun main(args: Array<String>) {
 
     //함수 형태 : fun 함수명(변수명: 변수 타입): 리턴 타입 { return 값 }
     fun sum(a: Int, b: Int): Int{
-        return a+b;
+        return a+b+number;
     }
+    println("5+10+10 is " + sum(5, 10))
     fun otherSum(a: Int, b: Int) = a + b
     fun negative(a: Int, b: Int): Int = a - b
 
