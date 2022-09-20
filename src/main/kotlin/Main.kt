@@ -13,9 +13,9 @@ fun main(args: Array<String>) {
     var number = 10;
 
     //함수 형태 : fun 함수명(변수명: 변수 타입): 리턴 타입 { return 값 }
-    fun sum(a: int, b: int): int{
+    fun sum(a: Int, b: Int): Int{
         return a+b;
     }
-    fun sum(a: Int, b: Int): Int = a + b
+    fun negative(a: Int, b: Int): Int = a - b
 
 }
