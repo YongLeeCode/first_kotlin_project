@@ -16,6 +16,7 @@ fun main(args: Array<String>) {
     fun sum(a: Int, b: Int): Int{
         return a+b;
     }
+    fun otherSum(a: Int, b: Int) = a + b
     fun negative(a: Int, b: Int): Int = a - b
 
 }
